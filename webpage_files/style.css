@@ -1,0 +1,305 @@
+body {
+  background: #fff;
+  font-family: Helvetica-neue, Helvetica, sans-serif;
+  font-size: 1em;
+  line-height: 1.5em;
+  margin: 20px;
+}
+
+#content {
+  max-width: 40em;
+  overflow: hidden;
+  margin: auto;
+}
+
+#wide-page #content {
+  max-width: 50em;
+}
+
+h1 {
+  color: #333;
+  line-height: 1.5em;
+  font-weight: normal;
+}
+h2 {
+  color: #000000;
+}
+h3 {
+  color: #000000;
+  font-weight: normal;
+  line-height: 2px;
+  margin: 50px 0px 0px 0px;
+}
+h4 {
+  color: #000000;
+}
+h5 {
+  color: #000000;
+}
+
+img {
+  border: none;
+}
+img a {
+  border: none;
+}
+blockquote {
+  border-left: 1px solid #a5abab;
+  margin: 0px;
+  padding: 0 12px 0 12px;
+}
+
+p {
+  color: #000000;
+  line-height: 1.3em;
+  margin: 12px 0;
+}
+
+a {
+  text-decoration: none;
+}
+a:link {
+  color: #333;
+  text-decoration: none;
+}
+a:visited {
+  color: #333;
+  text-decoration: none;
+}
+a:hover {
+  color: #999;
+  text-decoration: none;
+}
+
+ul {
+  padding: 0.5em 0em 1em 3.2em;
+}
+ol {
+  padding: 0.5em 0em 0em 3.2em;
+}
+li {
+  line-height: 18px;
+  padding: 6px 0 0 0;
+}
+
+#header {
+  position: fixed;
+}
+
+#header h2 {
+  padding: 0 0 0 0;
+  margin: 0;
+  color: #333;
+  font: Helvetica, sans-serif;
+  font-size: 16pt;
+  font-weight: normal;
+}
+#header h3 {
+  padding: 5px 0 20px 0;
+  margin: 0;
+  color: #777777;
+  font-weight: normal;
+  font-size: 12pt;
+}
+
+.entry a:link {
+  color: #303030;
+  text-decoration: none;
+  border-width: 0 0 1px 0;
+  border-style: none none solid none;
+  border-color: #c0c0c0;
+}
+.entry a:visited {
+  color: #303030;
+  text-decoration: none;
+  border-width: 0 0 1px 0;
+  border-style: none none solid none;
+  border-color: #c0c0c0;
+}
+.entry a:hover {
+  background: #e7eef8;
+  border-width: 0 0 1px 0;
+  border-style: none none solid none;
+  border-color: #c0c0c0;
+  text-decoration: none;
+}
+.entry strong {
+  font: Arial, Helvetica, sans-serif;
+  font-weight: bold;
+  font-size: 1em;
+  color: #111111;
+}
+
+.bold-text {
+  font-weight: bold;
+}
+
+.indented {
+  display: inline-block;
+  padding-left: 20px;
+}
+
+.courseitem {
+  padding-left: 20px;
+  margin: 0px 0px 0px 0px;
+}
+
+.centered {
+  display: inline-block;
+  text-align: center;
+}
+
+#footer {
+  background: #fff;
+  clear: both;
+  width: 100%;
+}
+#footer p {
+  padding: 14px 0;
+  margin: 0;
+  color: #666;
+  text-align: center;
+}
+#footer a {
+  color: #666;
+  text-decoration: none;
+}
+#footer a:hover {
+  color: #000000;
+  text-decoration: none;
+}
+
+#poetry {
+  background: #fff;
+  clear: both;
+  width: 100%;
+}
+#poetry p {
+  padding: 14px 0;
+  margin: 0;
+  text-align: center;
+}
+#poetry h1 {
+  padding: 14px 0;
+  margin: 0;
+  text-align: center;
+}
+#poetry a {
+  color: #666;
+  text-decoration: none;
+}
+#poetry a:hover {
+  color: #000000;
+  text-decoration: none;
+}
+
+.left {
+  width: 30%;
+  padding: 0 3px 0 0;
+  float: left;
+}
+
+.right {
+  width: 65%;
+  padding: 0 10px 0 0;
+  float: left;
+}
+
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+
+b {
+  display: inline-block;
+  margin-bottom: 0;
+}
+
+ol {
+  margin-top: 0;
+  padding-top: 0;
+}
+
+.arrow-cell {
+  position: relative;
+}
+
+.arrow-left {
+  position: absolute;
+  top: 80%;
+  left: 0px;
+  right: 0px;
+  height: 1px;
+  background-color: black;
+  transform: translateY(-50%);
+}
+
+.arrow-right {
+  position: absolute;
+  top: 80%;
+  left: 0px;
+  right: 0px;
+  height: 1px;
+  background-color: black;
+  transform: translateY(-50%);
+}
+
+.arrow {
+  position: absolute;
+  top: 80%;
+  left: 0px;
+  right: 0px;
+  height: 3px;
+  background-color: grey;
+  transform: translateY(-50%);
+}
+
+.arrow-right::after {
+    content: '';
+    position: absolute;
+    top: 70%;
+    width: 5px;
+    height: 5px;
+    border-top: 3px solid grey;
+    border-right: 3px solid grey;
+    right: 0px;
+    transform: translateY(-50%) rotate(45deg);
+  }
+
+.arrow-left::after {
+    content: '';
+    position: absolute;
+    top: 70%;
+    width: 5px;
+    height: 5px;
+    border-top: 3px solid grey;
+    border-right: 3px solid grey;
+    left: 0px;
+    transform: translateY(-50%) rotate(-135deg);
+  }
+
+
+@media print {
+  body {
+    font-family: Helvetica, sans-serif;
+    font-size: 14px;
+    background: white;
+    color: black;
+    margin: 10;
+    width: auto;
+  }
+  .container {
+    display: block;
+  }
+  .navigation {
+    display: none;
+  }
+  .subscribe {
+    display: none;
+  }
+  .footer {
+    display: none;
+  }
+}
