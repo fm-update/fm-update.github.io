@@ -3,7 +3,7 @@ body {
   font-family: Helvetica-neue, Helvetica, sans-serif;
   font-size: 1em;
   line-height: 1.5em;
-  margin: 20px;
+  margin: 0px;
 }
 
 #content {
@@ -291,6 +291,9 @@ ol {
     width: auto;
   }
   .container {
+    max-width: 1000px;   /* Restricts width on large screens */
+    margin: 0 auto;      /* Centers horizontally */
+    padding: 20px;       /* Prevents content touching edges on mobile */
     display: block;
   }
   .navigation {
