@@ -1,17 +1,19 @@
 /* --- Basic Page Setup & Margins --- */
+/* --- Basic Page Setup & Margins --- */
 body {
   font-family: Arial, sans-serif;
+  font-size: 18px; /* Added base font size */
   line-height: 1.6;
   color: #333333;
-  max-width: 850px; /* This stops the text from stretching across the whole monitor */
-  margin: 0 auto;   /* This centers the whole website block on the screen */
-  padding: 40px 20px; /* This adds a nice breathing room buffer around the text */
+  max-width: 1000px; /* Widened the container */
+  margin: 0 auto;    
+  padding: 20px 15px; /* Reduced the inner buffer */
   background-color: #fcfcfc;
 }
 
 /* --- Spacing out the Content --- */
 .entry p, .entry ol, .entry ul {
-  margin-bottom: 20px;
+  margin-bottom: 15px; /* Tightened paragraph gaps */
 }
 
 h1, h2, h3 {
